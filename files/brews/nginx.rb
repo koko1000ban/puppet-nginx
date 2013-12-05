@@ -36,6 +36,8 @@ class Nginx < Formula
             "--with-http_ssl_module",
             "--with-pcre",
             "--with-ipv6",
+            "--with-http_gzip_static_module",
+            "--with-stub_status",
             "--with-cc-opt='-I#{HOMEBREW_PREFIX}/include'",
             "--with-ld-opt='-L#{HOMEBREW_PREFIX}/lib'",
             "--conf-path=/opt/boxen/config/nginx/nginx.conf",
